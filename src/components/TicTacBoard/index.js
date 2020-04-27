@@ -93,8 +93,9 @@ export default function App() {
   };
 
   return (
-    <div style={{ marginTop: 100 }}>
-      <div style={{ height: 30, marginBottom: 20, color: '#fff', fontFamily: 'Viga'}}><h3>{status}</h3></div>
+    <div style={{ marginTop: 70 }}>
+      <div style={{ marginLeft: 70 ,height: 30, marginBottom: 50, color: '#1EA508', fontFamily: 'Viga'}}>
+        <h1>{status}</h1></div>
       <div className="grid-container">
         {boardItems.map((item, index) => (
           <div
