@@ -94,7 +94,7 @@ export default function App() {
 
   return (
     <div style={{ marginTop: 70 }}>
-      <div style={{ marginLeft: 70 ,height: 30, marginBottom: 50, color: '#1EA508', fontFamily: 'Viga'}}>
+      <div style={{ marginLeft: 30 ,height: 30, marginBottom: 50, color: '#1EA508', fontFamily: 'Viga'}}>
         <h1>{status}</h1></div>
       <div className="grid-container">
         {boardItems.map((item, index) => (
@@ -107,7 +107,7 @@ export default function App() {
           </div>
         ))}
       </div>
-      <div style={{ marginTop: 20, marginLeft: 50 }} >
+      <div style={{ marginTop: 20, marginLeft: 0 }} >
         <Button variant="danger" size="sm" className="m-2" onClick={reset}>
           Reset
         </Button>

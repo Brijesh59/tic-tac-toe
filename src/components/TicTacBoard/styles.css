@@ -1,5 +1,5 @@
 .grid-container {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   
   display: grid;
@@ -16,7 +16,7 @@
   font-size: 20px;
   text-align: center;
   min-width: 125px;
-  min-height: 130px;
+  min-height: 135px;
 }
 .grid-item:hover {
   cursor: pointer;
